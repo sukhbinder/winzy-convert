@@ -1,11 +1,7 @@
-
 import winzy
 import glob
 import os
 from PIL import Image
-
-
-
 
 
 def add_pngs_to_powerpoint(png_files, output_filename):

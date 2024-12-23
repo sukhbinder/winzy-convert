@@ -3,13 +3,14 @@ import winzy_convert as w
 
 from argparse import Namespace, ArgumentParser
 
+
 def test_create_parser():
     subparser = ArgumentParser().add_subparsers()
     parser = w.create_parser(subparser)
 
     assert parser is not None
 
-    result = parser.parse_args(['hello'])
+    result = parser.parse_args(["hello"])
     assert result.pattern == "hello"
 
 
