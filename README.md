@@ -21,7 +21,44 @@ winzy install winzy-convert
 ```
 ## Usage
 
-Usage instructions go here.
+There are two commands ``topdf`` and another ``toppt``
+
+### topdf
+
+```bash
+usage: winzy topdf [-h] [-i IMAGEFILE] [-o OUTPUT] pattern
+
+Mimic's convert to convert images to pdf.
+
+positional arguments:
+  pattern               Pattern matching the PNG images (e.g., e:\temp\*.png)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i IMAGEFILE, --imagefile IMAGEFILE
+                        supply files with this option.
+  -o OUTPUT, --output OUTPUT
+                        Output pdf file name
+```
+
+### toppt
+
+```bash
+usage: winzy toppt [-h] [-o OUTPUT] [-i IMAGEFILE] pattern
+
+Mimic's convert to convert images to ppt
+
+positional arguments:
+  pattern               Pattern matching the PNG images (e.g., e:\temp\*.png)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -o OUTPUT, --output OUTPUT
+                        Output pdf file name
+  -i IMAGEFILE, --imagefile IMAGEFILE
+                        supply files with this option.
+
+````
 
 ## Development
 
