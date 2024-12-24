@@ -23,7 +23,7 @@ winzy install winzy-convert
 
 There are two commands ``topdf`` and another ``toppt``
 
-### topdf
+### winzy topdf
 
 ```bash
 usage: winzy topdf [-h] [-i IMAGEFILE] [-o OUTPUT] pattern
@@ -41,7 +41,7 @@ optional arguments:
                         Output pdf file name
 ```
 
-### toppt
+### winzy toppt
 
 ```bash
 usage: winzy toppt [-h] [-o OUTPUT] [-i IMAGEFILE] pattern
